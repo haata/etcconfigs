@@ -1,0 +1,18 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>        <dir>         <type>    <options>          <dump> <pass>
+none                   /dev/pts      devpts    defaults            0      0
+none                   /dev/shm      tmpfs     defaults            0      0
+
+
+#UUID=79b6f188-e3da-4cf3-99c3-3f06c76f0f70 /boot ext2 defaults 0 1
+/dev/cdrom /media/cdrom   auto    ro,user,noauto,unhide   0      0
+/dev/dvd /media/dvd   auto    ro,user,noauto,unhide   0      0
+/dev/md0 / ext3 defaults 0 1
+/dev/md2 /mnt/Music ext3 defaults 0 1
+/dev/md3 /mnt/Video ext3 defaults 0 1
+UUID=79b6f188-e3da-4cf3-99c3-3f06c76f0f70 /boot ext2 defaults 0 1
+
+#192.168.7.102:/home/hyatt/Stor 		/home/hyatt/Stor	nfs	defaults 0 0
+#192.168.7.102:/home/hyatt/Download	/home/hyatt/StorTmp	nfs	defaults 0 0
