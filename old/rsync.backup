@@ -1,0 +1,8 @@
+#! /bin/bash
+
+#rsync -a --progress --delete /mnt/Music/ /mnt/Starm/Music #&> /dev/null
+rsync -a --progress --delete /mnt/Video/ /mnt/Starm/Video #&> /dev/null
+rsync -a --progress --delete /home/hyatt /mnt/Starm/Home #&> /dev/null
+
+exit 0
+
