@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user startup script.
+#
+
+mount 192.168.7.188:/mnt/Starm /mnt/Starm
+mount 192.168.7.102:/home/hyatt/Stor /mnt/Stor
+
+mount /dev/md1 /mnt/Music
+mount /dev/md2 /mnt/Video
+
